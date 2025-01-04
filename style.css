@@ -23,3 +23,77 @@ html{
 body{
     background-color: var(--bg-color);
 }
+
+/* Basic Styling  */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+
+/* Navbar Styling Here */
+
+.navbar{
+    justify-content: space-between;
+    height: 13vh;
+}
+
+.navlist{
+    gap: 3rem;
+}
+
+.link{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.fa-ice-cream{
+    font-size: 2rem;
+}
+
+.nav-icons{
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon{
+    font-size: 1.2rem;
+    background-color: var(--btn-color);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 45px;
+    border: .1rem solid var(--btn-color);
+    transition: .3s ease-in-out;
+}
+
+.icon:hover{
+    background: transparent;
+}
